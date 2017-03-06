@@ -1,0 +1,505 @@
+/*!
+ * Start Bootstrap - New Age v3.3.7 (http://startbootstrap.com/template-overviews/new-age)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: fixed;
+    font-family: Microsoft JhengHei, 'Arial', 'sans-serif';
+}
+h1 {
+    font-size: 18px;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    color: #fff;
+}
+h2 {
+    font-size: 15px;
+    line-height: 28px;
+    margin-top: 2px;
+}
+h3 {
+    font-size: 14px;
+}
+p {
+    font-size: 13px;
+    margin-top: 10px;
+}
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid #fff;
+}
+.col-sm-7 h1{
+    font-size: 18px;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    color: #000;
+}
+a {
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+    color: #FB3978;
+}
+a:hover,
+a:focus {
+    color: #FB3978;
+}
+.container h1,
+.container h2,
+.container h3 {
+    font-family: Microsoft JhengHei, 'Arial', 'sans-serif';
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.center a {
+    color: #428bca;
+    text-decoration: underline;
+}
+.center a:hover,
+.center a:focus {
+    color: #428bca;
+}
+.center a {
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+    color: #428bca;
+}
+.container h3 {
+    color: #847979;
+    font-weight: 500;
+    font-size: 26px;
+    margin-top: 10px;
+    font-weight: 800;
+}
+.row {
+    margin-top: 6%;
+}
+.col-sm-7 img {
+    width: 32%;
+    margin-top: 20px;
+}
+.col-sm-5 {
+    width: 39%;
+    margin-left: 9%;
+    margin-top: 3%;
+}
+.col-sm-7 {
+    width: 58.33333333%;
+    margin-left: 50%;
+    padding-top: 15%;
+    padding-left: 6%;
+}
+.add {
+    padding: 70px 0;
+    background-color: #000;
+    display: none;
+    font-weight: 500;
+}
+header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background: url("../img/bg.jpg");
+    background-size: cover;
+    color: #000;
+    min-height: 100%;
+}
+header .header-content {
+    text-align: left;
+    position: relative;
+    text-align: left;
+    padding: 0;
+    height: 300px;
+}
+header .header-content .header-content-inner {
+    max-width: none;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+header .header-content .header-content-inner h1 {
+    font-size: 40px;
+    line-height: 60px;
+}
+header .device-container {
+    max-width: none;
+    max-height: calc(0vh);
+    margin: 40px auto 0;
+}
+header .device-container .screen img {
+    border-radius: 3px;
+}
+.device-mockup {
+    position: relative;
+    width: 100%;
+    padding-bottom: 61.775701%
+}
+.device-mockup.iphone6_plus,
+.device-mockup.iphone6_plus.portrait {
+    padding-bottom: 201.76%
+}
+.device-mockup.iphone6_plus.portrait.white>.device,
+.device-mockup.iphone6_plus.white>.device {
+    background-image: url("../img/iphone_6.png")
+}
+.device-mockup>.device {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(macbook/macbook.png)
+}
+.device-mockup.iphone6_plus.portrait>.device>.screen,
+.device-mockup.iphone6_plus>.device>.screen {
+    top: 11.58%;
+    bottom: 11.58%;
+    left: 5.97%;
+    right: 5.97%
+}
+.device-mockup>.device>.screen {
+    position: absolute;
+    top: 11.0438729%;
+    bottom: 14.6747352%;
+    left: 13.364486%;
+    right: 13.364486%;
+    overflow: hidden
+}
+.navbar-header {
+    width: 160px;
+    float: left;
+    padding-top: 10px;
+}
+.navbar-header img {
+    width: 24%;
+    float: left;
+    margin-right: 12px;
+    margin-top: 5px;
+}
+.title {
+    background-image: url("../img/bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-position: center;
+}
+.red {
+    color: red;
+}
+.center {
+    text-align: center;
+}
+.mail-message-area {
+    width: 100%;
+    padding: 0 15px;
+}
+.mail-message {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8) !important;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+    margin: 0 auto;
+    border-radius: 0;
+}
+.not-visible-message {
+    height: 0px;
+    opacity: 0;
+}
+.visible-message {
+    height: auto;
+    opacity: 1;
+    margin: 25px auto 0;
+}
+/* Input Styles */
+
+.form {
+    width: 100%;
+    padding: 15px;
+    background: #f8f8f8;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    margin-bottom: 25px;
+    color: #727272 !important;
+    font-size: 13px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.form:hover {
+    border: 1px solid #8BC3A3;
+}
+.form:focus {
+    color: white;
+    outline: none;
+    border: 1px solid #8BC3A3;
+}
+/* Generic Button Styles */
+
+.button {
+    padding: 8px 12px;
+    background: #FB3775;
+    display: block;
+    width: 120px;
+    margin: 10px 0 0px 0;
+    border-radius: 8px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+}
+.button:hover {
+    background: #FB3775;
+    color: white;
+}
+/* Send Button Styles */
+
+.form-btn {
+    width: 180px;
+    display: block;
+    height: auto;
+    padding: 15px;
+    color: #fff;
+    background: #FB3775;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin: auto;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+}
+.form-btn:hover {
+    background: #111;
+    color: white;
+    border: none;
+}
+.form-btn:active {
+    opacity: 0.9;
+}
+.form-group {
+    margin-bottom: 2px;
+}
+input {
+    position: relative;
+    z-index: 9999;
+}
+.contact-form {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.contact-form img {
+    width: 250px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+footer {
+    background-color: #fff;
+    color: #000;
+    padding: 14px 0;
+    color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
+    letter-spacing: 0.5px;
+}
+footer p {
+    font-size: 12px;
+    margin: 0;
+    color: #000;
+    line-height: 1.5;
+}
+body {
+    webkit-tap-highlight-color: #222222;
+}
+@media only screen and (min-width: 1366px) {
+    header {
+        min-height: 100%;
+    }
+    header .header-content {
+        text-align: left;
+        padding: 0;
+        height: 300px;
+    }
+    header .header-content .header-content-inner {
+        max-width: none;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    header .header-content .header-content-inner h1 {
+        font-size: 38px;
+        line-height: 60px;
+    }
+    header .device-container {
+        max-width: none;
+        max-height: calc(0vh);
+        margin: 40px auto 0;
+    }
+    .col-sm-5 {
+        width: 37%;
+        margin-left: 9%;
+        margin-top: 0%;
+    }
+    .col-sm-7 {
+        margin-left: 52%;
+        padding-top: 14%;
+        padding-left: 3%;
+    }
+    .col-sm-7 img {
+        width: 36%;
+    }
+}
+@media (min-width: 1101px) and (max-width: 1335px) {
+    .col-sm-5 {
+        width: 29%;
+        margin-left: 15%;
+        margin-top: -2%;
+    }
+    .col-sm-7 {
+        margin-left: 47%;
+        padding-top: 15%;
+        padding-left: 3%;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    .col-sm-5 {
+        width: 28%;
+        margin-left: 21%;
+        margin-top: -2%;
+    }
+    .col-sm-7 {
+        margin-left: 51%;
+        padding-top: 9%;
+        padding-left: 3%;
+    }
+    .col-sm-7 img {
+        width: 30%;
+    }
+    header .header-content .header-content-inner h1 {
+        font-size: 38px;
+        line-height: 60px;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .col-sm-5 {
+        width: 34%;
+        margin-left: 16%;
+        margin-top: 1%;
+    }
+    .col-sm-7 {
+        margin-left: 51%;
+        padding-top: 9%;
+        padding-left: 3%;
+    }
+    .col-sm-7 img {
+        width: 30%;
+    }
+    header .header-content .header-content-inner h1 {
+        font-size: 38px;
+        line-height: 60px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .navbar-header {
+        margin-left: 8px;
+        padding-top: 4px;
+    }
+    .navbar-header img {
+        width: 22%;
+        float: left;
+        margin-right: 12px;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    .form-group h3 {
+        padding-left: 0%;
+        color: #000000;
+        font-weight: 500;
+        line-height: 1.1;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    h3 {
+        padding-left: 5%;
+        color: #847979;
+        font-weight: 800;
+        font-size: 22px;
+        margin-top: 9px;
+    }
+    .add {
+        display: block;
+        position: absolute;
+        z-index: 99;
+        text-align: center;
+        color: #000;
+        background: url("../img/bg2.png");
+        background-position: 13%;
+        bottom: 0;
+        padding-bottom: 48px;
+        padding-top: 10px;
+    }
+    .add h2 {
+        font-size: 22px;
+        line-height: 33px;
+        margin-top: 6px;
+    }
+    .add img {
+        width: 36%;
+        margin-bottom: 1%;
+    }
+    .col-sm-7 {
+        display: none;
+    }
+    .col-sm-5 {
+        width: 67%;
+        margin-top: -1%;
+        margin: 0 auto;
+    }
+    .col-sm-7 img {
+        width: 22%;
+    }
+    .row {
+        margin-top: 2%;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .col-sm-7 img {
+        width: 40%;
+    }
+    footer {
+        padding: 9px 0;
+    }
+    footer p {
+        font-size: 9px;
+        margin: 0;
+        color: #000;
+    }
+}

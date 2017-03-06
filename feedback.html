@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="問題回饋與建議">
+    <meta name="author" content="">
+    <meta name="keywords" content="問題回饋與建議">
+
+    <title>問題回饋與建議</title>
+
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="問題回饋與建議" />
+    <meta property="og:description"   content="問題回饋與建議" />
+    <meta property="og:image"         content="" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+    <!-- Theme CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+    <link rel="bookmark" href="img/favicon.ico"/>
+
+</head>
+
+<body>
+    <script type="text/javascript" src="//api.filestackapi.com/filestack.js"></script>
+
+    <div class="inner contact">
+
+        <!-- Form Area -->
+        <div class="contact-form">
+            <!--h1 class="center relative col-xs-12">問題回饋與建議</h1-->
+            <hr>
+            <h2>您對Touch有什麼建議還是遇到什麼問題呢，請填寫以下資料告訴我們您的意見。</h2>
+            <!-- Form -->
+            <script type="text/javascript">var submitted=false;</script>
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='/feedbackthanks';}"></iframe>
+            <form enctype="multipart/form-data" method="POST" action="https://api.cloudstitch.com/hokiapp/touch" class="magic-form" name="feedback" target="hidden_iframe"
+      onsubmit="submitted=true;">
+                <div class="form-group">
+                    <label><h3>請輸入您註冊的手機<span class="red">*</span></h3>
+                    </label>
+                    <input type="number" name="Tel" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label><h3>您的稱呼<span class="red">*</span></h3>
+                    </label>
+                    <input name="Name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label><h3>可以聯絡到您的Email<span class="red">*</span></h3>
+                    </label>
+                    <input type="email" name="Email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label><h3>請描述你的問題，我們會儘快協助<span class="red">*</span></h3>
+                    </label>
+                    <br>
+                    <input name="Content" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <hr>
+                    <button type="submit" class="form-btn">送出</button>
+                </div>
+            </form>
+
+
+            <!-- Your Mail Message -->
+            <div class="mail-message-area">
+                <!-- Message -->
+                <div class="alert gray-bg mail-message not-visible-message">
+                    <strong>Thank You !</strong> Your email has been delivered.
+                </div>
+            </div>
+
+        </div>
+        <!-- End Contact Form Area -->
+    </div>
+    <!-- End Inner -->
+
+</body>
